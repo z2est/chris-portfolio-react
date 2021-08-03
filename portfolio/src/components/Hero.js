@@ -1,9 +1,10 @@
 import React from 'react';
+import HeroImg from '../images/hero.png';
 
 class HeroSection extends React.Component {
     render() {
         return (
-            <div className="flex max-w-screen justify-between px-10 py-20 bg-gray-900 text-white">
+            <div className="flex max-w-screen h-screen justify-between px-10 py-20 bg-gray-900 text-white">
                 <div className="flex justify-center items-center w-1/2">
                     <div>
                         <h1 className="text-5xl mb-4 font-bold">All The Best, 7Connected.</h1>
@@ -11,8 +12,8 @@ class HeroSection extends React.Component {
                     </div>
 
                 </div>
-                <div className="flex justify-center w-1/2">
-                    <img className="rounded h-auto" src="http://placehold.it/500" alt="hero"></img>
+                <div className="flex justify-center items-center w-1/2 pb-40">
+                    <img className="w-4/5 object-fit rounded transition duration-1000 animate-bounce" src={HeroImg} alt="hero"/>
                 </div>
             </div>
         );

@@ -7,7 +7,7 @@ class SkillSection extends React.Component{
 
     render() {
         return (
-            <section className="flex flex-col max-w-screen justify-center px-10">
+            <section className="flex flex-col max-w-screen h-screen justify-center px-10">
                 <div className="mt-12 text-center w-auto">
                     <h1 className="text-5xl font-light text-gray-900">비즈니스 라인업</h1>
                     <p className="mt-4 text-center text-gray-400">7Connected의 비즈니스 라인업 입니다.</p>
