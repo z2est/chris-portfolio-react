@@ -13,7 +13,7 @@ class HeroSection extends React.Component {
 
                 </div>
                 <div className="flex justify-center items-center w-1/2 pb-40">
-                    <img className="w-4/5 object-fit rounded transition duration-1000 animate-bounce" src={HeroImg} alt="hero"/>
+                    <img className="w-4/5 object-fit rounded" src={HeroImg} alt="hero"/>
                 </div>
             </div>
         );
