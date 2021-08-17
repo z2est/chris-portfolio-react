@@ -9,10 +9,12 @@ import Features from './components/Features';
 function App() {
   return (
     <div className="App">
-      <Navbar></Navbar>
-      <HeroSection/>
-      <SkillSection/>
-      <Features/>
+      <Navbar/>
+      <switch>
+        <Route path="/" component={HeroSection}/>
+        <Route path="/products" component={SkillSection}/>
+        <Route path="/feature" component={Features}/>
+      </switch>
     </div>
   );
 }
