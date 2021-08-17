@@ -1,15 +1,17 @@
 import React from 'react';
+import {NavLink} from 'react-router-dom';
 
 class Navbar extends React.Component {
     render() {
         return (
             <nav className="flex max-w-screen h-20 bg-gray-900">
                 <div className="flex justify-center items-center w-1/6 bg-gray-900">
-                    <img src="img/logo.svg" className="px-5"/>
+                    <img src="img/logo.svg" className="px-5">
+                    </img>
                 </div>
                 <div className="flex w-96 justify-between items-center px-5">
-                    <a className="text-white">Products</a>
-                    <a className="text-white">Features</a>
+                    <NavLink className="text-white" to="/products">Products</NavLink>
+                    <NavLink className="text-white" to="/feature">Features</NavLink>
                     <a className="text-white">About us</a>
                 </div>
                 <div className="flex flex-row-reverse w-4/5 px-10 items-center">
