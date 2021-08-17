@@ -6,8 +6,7 @@ class Navbar extends React.Component {
         return (
             <nav className="flex max-w-screen h-20 bg-gray-900">
                 <div className="flex justify-center items-center w-1/6 bg-gray-900">
-                    <img src="img/logo.svg" className="px-5">
-                    </img>
+                    <NavLink to="/"><img src="img/logo.svg" className="px-5"/></NavLink>
                 </div>
                 <div className="flex w-96 justify-between items-center px-5">
                     <NavLink className="text-white" to="/products">Products</NavLink>
