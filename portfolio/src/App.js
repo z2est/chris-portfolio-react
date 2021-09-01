@@ -11,11 +11,9 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
-      <switch>
-          <Route exact path="/" component={HeroSection}/>
-          <Route path="/products" component={SkillSection}/>
-          <Route path="/feature" component={Features}/>
-      </switch>
+      <HeroSection/>
+      <SkillSection/>
+      <Features/>
     </div>
   );
 }

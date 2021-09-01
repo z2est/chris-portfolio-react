@@ -4,7 +4,7 @@ import {NavLink} from 'react-router-dom';
 class Navbar extends React.Component {
     render() {
         return (
-            <nav className="flex max-w-screen h-20 bg-gray-900">
+            <nav className="z-0 flex max-w-screen h-20 bg-gray-900">
                 <div className="flex justify-center items-center w-1/6 bg-gray-900">
                     <NavLink to="/"><img src="img/logo.svg" className="px-5"/></NavLink>
                 </div>

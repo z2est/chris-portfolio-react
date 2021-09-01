@@ -46,6 +46,7 @@
     ]
   },
   "devDependencies": {
-    "postcss-cli": "^8.3.1"
+    "postcss-cli": "^8.3.1",
+    "tailwindcss-scroll-snap": "^1.1.0"
   }
 }
