@@ -9,11 +9,12 @@ import { Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar/>
-      <HeroSection/>
-      <SkillSection/>
-      <Features/>
+    <div className="h-screen snap-y snap-mandatory">
+        <div className="" style={{backgroundColor: 'red'}}>1</div>
+        <div className="" style={{backgroundColor: 'blue'}}>2</div>
+        <div className="" style={{backgroundColor: 'orange'}}>3</div>
+        <div className="" style={{backgroundColor: 'green'}}>4</div>
+        <div className="" style={{backgroundColor: 'yellow'}}>5</div>
     </div>
   );
 }
